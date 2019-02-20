@@ -57,8 +57,7 @@ export default {
               this.feedback = err.message
             })
           }
-        })
-        
+        })        
         console.log(this.slug)
       } else {
         this.feedback = 'You must enter all fields'
